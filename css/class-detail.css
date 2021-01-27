@@ -1,0 +1,93 @@
+.class-detail-video-wrap {
+	color:#fff;
+	background:#333;
+}
+.class-detail-video-wrap h2 {
+	color:#fff;
+}
+.class-detail-video-wrap p {
+	color:#c4c4c4;
+}
+.video-info {
+	position:relative;
+}
+.teacher-info {
+	display:flex;
+	align-items:center;
+	padding-top:10px;
+	text-align:left;
+	border-top:1px solid #6e6e6e;
+}
+.teacher-info .teacher-thumb {
+	width:50px;
+	height:50px;
+	margin-right:15px;
+	border-radius:50px;
+	background-size:cover;
+}
+.teacher-info h3 {
+	color:#fff;
+}
+.class-detail-video-wrap a {
+	font-size:22px;
+	position:absolute;
+	top:10px;
+	right:0;
+	padding:10px 20px;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+	color:#333;
+	border-radius:10px;
+	background:#ffb840;
+	-khtml-transition:all .3s ease;
+}
+.class-detail-video-wrap a:hover {
+	color:#ffb840;
+	background:#fff;
+}
+.class-detail-video-wrap .class-video-title {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #6e6e6e;
+}
+.pa-responsive-embed-youtube {
+	position:relative;
+	padding-top:0;
+	padding-bottom:56.25%;
+	/* 16:9 Aspect Ratio */
+}
+.pa-responsive-embed-youtube iframe {
+	position:absolute;
+	width:100%!important;
+	height:100%!important;
+}
+.class-detail-video-wrap p {
+	line-height:2.5;
+}
+.class-detail-video-wrap p input {
+	margin-right:10px;
+}
+.class-detail-video-wrap p label {
+	color:#fff !important;
+}
+.class-detail-video-wrap p span {
+	float:right;
+	color:#c4c4c4;
+}
+.class-detail-wrap {
+	padding:30px 0;
+}
+@media screen and (max-width:800px) {
+	.class-detail-video-wrap a {
+		font-size:16px;
+		position:absolute;
+		top:10px;
+		right:0;
+		padding:5px 10px;
+		color:#333;
+		border-radius:10px;
+		background: #ffb840;
+	}
+}
